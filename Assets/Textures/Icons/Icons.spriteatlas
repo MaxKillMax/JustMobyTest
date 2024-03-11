@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 6d715df8432776a46912042ba041add9, type: 3}
+    - {fileID: 2800000, guid: 53290977e5fe1d543a81d79f15ea465c, type: 3}
+    - {fileID: 2800000, guid: e40022c6504af654cbc53ee65e28f407, type: 3}
+    - {fileID: 2800000, guid: 810cdfc3e9e0d6a4e9a4c0385df4bf8e, type: 3}
+    - {fileID: 2800000, guid: e27363e23d21c4e428ad8a4ee99c4ee9, type: 3}
+    - {fileID: 2800000, guid: 6e84b4169e6ebef4cb6944a8c93be319, type: 3}
+    - {fileID: 2800000, guid: 309c483f0c8d2fa48b2bc91d0994ab04, type: 3}
+    - {fileID: 2800000, guid: 821ad50c0d612fd43880a20c75e37b6e, type: 3}
+    - {fileID: 2800000, guid: 079c393a5f5237e48b0cb665d41a5879, type: 3}
+    - {fileID: 2800000, guid: 188432d6d98adb949b0e177ee7c3f0f0, type: 3}
+    - {fileID: 2800000, guid: a7beaff189947ab479634a0fe1819399, type: 3}
+    - {fileID: 2800000, guid: 66f02dc642dccea4f80d587101189996, type: 3}
+    - {fileID: 2800000, guid: 69558de848c68b749a943f37b66b5c9e, type: 3}
+    - {fileID: 2800000, guid: 85d1717727302e742be3d8d782a13aac, type: 3}
+    - {fileID: 2800000, guid: 81e326848e29e014ba6128948d6d9cb7, type: 3}
+    - {fileID: 2800000, guid: 23edb4cec1a3ba9478063ec0a48cbf6e, type: 3}
+    - {fileID: 2800000, guid: 617744e8d1e51284296a6d1453b446f3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a7beaff189947ab479634a0fe1819399, type: 3}
+  - {fileID: 21300000, guid: e27363e23d21c4e428ad8a4ee99c4ee9, type: 3}
+  - {fileID: 21300000, guid: 810cdfc3e9e0d6a4e9a4c0385df4bf8e, type: 3}
+  - {fileID: 21300000, guid: 81e326848e29e014ba6128948d6d9cb7, type: 3}
+  - {fileID: 21300000, guid: 6e84b4169e6ebef4cb6944a8c93be319, type: 3}
+  - {fileID: 21300000, guid: e40022c6504af654cbc53ee65e28f407, type: 3}
+  - {fileID: 21300000, guid: 66f02dc642dccea4f80d587101189996, type: 3}
+  - {fileID: 21300000, guid: 188432d6d98adb949b0e177ee7c3f0f0, type: 3}
+  - {fileID: 21300000, guid: 85d1717727302e742be3d8d782a13aac, type: 3}
+  - {fileID: 21300000, guid: 53290977e5fe1d543a81d79f15ea465c, type: 3}
+  - {fileID: 21300000, guid: 617744e8d1e51284296a6d1453b446f3, type: 3}
+  - {fileID: 21300000, guid: 69558de848c68b749a943f37b66b5c9e, type: 3}
+  - {fileID: 21300000, guid: 6d715df8432776a46912042ba041add9, type: 3}
+  - {fileID: 21300000, guid: 079c393a5f5237e48b0cb665d41a5879, type: 3}
+  - {fileID: 21300000, guid: 821ad50c0d612fd43880a20c75e37b6e, type: 3}
+  - {fileID: 21300000, guid: 23edb4cec1a3ba9478063ec0a48cbf6e, type: 3}
+  - {fileID: 21300000, guid: 309c483f0c8d2fa48b2bc91d0994ab04, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - potato
+  - fried-fish
+  - copper-bar
+  - three-leaves
+  - gold-nuggets
+  - chili-pepper
+  - rock
+  - open-treasure-chest
+  - silex
+  - bubbling-bowl
+  - wood-pile
+  - rope-coil
+  - beet
+  - mushroom-gills
+  - metal-bar
+  - toolbox
+  - log
+  m_RenderDataMap: {}
+  m_Tag: Icons
+  m_IsVariant: 0
