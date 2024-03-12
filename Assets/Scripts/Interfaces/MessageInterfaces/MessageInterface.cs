@@ -10,6 +10,7 @@ namespace JMT.Interfaces.MessageInterfaces
 
         [SerializeField] private TMP_Text _text;
 
+        private static DelayedCall Call;
         private static string Text;
         private static float Time;
 
@@ -24,7 +25,9 @@ namespace JMT.Interfaces.MessageInterfaces
         protected override void Enable()
         {
             _text.text = Text;
-            DelayedCall.Start(OnShowTimeEnd, Time);
+
+            DelayedCall.Stop(Call);
+            Call = DelayedCall.Start(OnShowTimeEnd, Time);
         }
 
         private void OnShowTimeEnd()
