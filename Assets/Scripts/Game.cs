@@ -1,6 +1,5 @@
 using JMT.Scenes;
 using UnityEngine;
-using Input = JMT.Inputs.Input;
 using Time = JMT.Times.Time;
 
 namespace JMT
@@ -13,7 +12,6 @@ namespace JMT
         [SerializeField] private SceneType _loadingScene;
 
         private readonly Time _time = new Time();
-        private readonly Input _input = new Input();
 
         private void Awake()
         {
@@ -24,7 +22,6 @@ namespace JMT
         private void Update()
         {
             _time.Update();
-            _input.Update();
         }
     }
 }
